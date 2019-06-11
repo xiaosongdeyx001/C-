@@ -1,0 +1,353 @@
+// cyc.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include<stdio.h>
+#include <windows.h>
+#include <stdlib.h>
+int main(int argc, char* argv[])
+{printf("==========================================================================程序开始==================================================================================\n");
+	int a;
+	int b = 0;
+	int d;
+	char c;
+	char *name;
+	printf("你还好吗？（请输入你的名字的缩写并按下回车键）(如果你无法输入，请按shift键后输入)\n");
+	scanf("%s",&name);
+	system("cls");
+	while(b == 0){
+		d = 3;
+Ai:
+		printf("                                 请耐心等待我们的结局...                        \n");
+		printf("别找急，坐下喝杯茶~~~~~~给你讲个笑话！\n");
+		printf("                                                                  \n");
+		printf(" 我问舍友：“寒假在家干嘛了”，她说：“没什么事，就在我家机场帮帮忙。”");
+		printf("我心里暗暗想,哇,土豪吧,还建有机场,");
+		printf("接着他说:“就给鸡喂喂饲料，扫扫鸡粪”\n");
+		printf("------------------------------------------------------------------------------\n");
+        printf("------------------------------------------------------------------------------\n");
+		printf("------------------------------------------------------------------------------\n");
+		printf("哥哥从外地来探望，晚上我俩在宿舍的床上挤挤睡下");
+		printf("聊至深夜,我问:“哥,你说咱这辈子还有啥遗憾没?”");
+		printf("哥迷迷糊糊，回答：“我觉得这被子太薄啦…”");
+
+		Sleep(20000);
+		system("color 0C");
+	    printf("	    		%s,其实我想告诉你!                            \n",&name);
+		printf("                                                              \n");
+		printf("                                                              \n");
+		printf("      * * * *          * * * *            *                   \n");
+		printf("       *                *     *          * *                  \n");
+		printf("        * * * *                *            *                 \n");
+		printf("               *          * * * *            *                \n");
+		printf("                *          *                  *               \n");
+		printf("         * * * * *          * * * *            *              \n");
+		printf("请输入5后按回车键");
+		Sleep(2000);
+Ai1:
+		fflush(stdin);
+		scanf("%d",&a);
+		if(a == 5){
+			d = 3;
+			system("cls");
+			Sleep(2000);
+			system("color 0B");
+			printf("**                                            **\n");
+			printf("**                                            **\n");
+			printf("**          *  * *           *  *  *          **\n");
+			printf("**        *         *    *           *        **\n");
+			printf("**       *             *              *       **\n");
+			printf("**       *                            *       **\n");
+			printf("**       *                            *       **\n");
+			printf("**        *                          *        **\n");
+			printf("**         *                        *         **\n");
+			printf("**          *                      *          **\n");
+			printf("**            *                  *            **\n");
+			printf("**              *              *              **\n");
+			printf("**                *          *                **\n");
+			printf("**                  *     *                   **\n");
+			printf("**                     *                      **\n");
+			printf("**                                            **\n");
+			printf("**                                            **\n");
+			printf("请输入2后按回车键");
+			Sleep(2000);
+Ai2:
+			fflush(stdin);
+			scanf("%d",&a);
+			if(a == 2){
+				d = 3;
+				system("cls");
+				Sleep(2000);
+				system("color 0A");
+				printf(" ---如---------------------\n");
+				printf("  ----果---------------------\n");
+				printf("   -----你---------------------\n");
+				printf("    ------愿---------------------\n");
+				printf("     -------意---------------------\n");
+				printf("      --------我---------------------\n");
+				printf("       ---------会---------------------\n");
+				printf("        ----------用---------------------\n");
+				printf("         ***********我*********************\n");
+				printf("          ------------的---------------------\n");
+				printf("           *************一*********************\n");
+				printf("            --------------生---------------------\n");
+				printf("             ---------------守---------------------\n");
+				printf("              ----------------护---------------------\n");
+				printf("               -----------------你---------------------\n");
+				Sleep(2000);
+				printf("                     (*^__^*)                  \n");
+				printf("请输入1后按回车");
+Ai3:
+				scanf("%d",&a);
+				if(a == 1){
+					d = 3;
+					system("cls");
+					Sleep(2000);
+					system("color 0E");
+					printf("我喜欢你!\n");
+					printf("我喜欢你!\n");
+					printf("我喜欢你!\n");
+					printf("\n\n\n");
+					printf("配合我一下好吗，请输入521后按回车\n");
+					Sleep(1000);
+Ai4:
+					scanf("%d",&a);
+					if(a == 521){
+						system("cls");
+						system("color 0C");
+						printf("            接受我吧!!!\n");
+						printf("\n           ~\(≧▽≦)/~啦啦啦\n");
+						Sleep(5000);
+						system("cls");
+						system("color 0C");
+						printf("                       宝贝请问你是否还想看一次YES!\n");
+Ai5:
+						printf("               (Y/N)or(y/n)\n");
+						fflush(stdin);
+						c = getchar();
+						if(c == 'y' || c == 'Y'){
+							printf("\n");
+							system("cls");
+							goto Ai;}
+						else if(c == 'N' || c == 'n'){
+							b = 1;}
+						else{
+							printf("               宝贝输入错误了哦╮(╯_╰)╭\n");
+							printf("               请重新输入\n");
+							goto Ai5;}}
+					else{
+						--d;
+						if(d != 0){
+							printf("         看来你并不爱我:(\n");
+							printf("         再给你%d次机会^_^    配合下我,请输入1后按回车\n",d);}
+						fflush(stdin);
+						if(d == 0){
+							printf("\n\n给你机会不珍惜，不爱你了 ε=怒ε=怒ε=怒ε=怒ε=( o｀ω′)ノ \n");
+							Sleep(2000);
+							break;}
+						goto Ai4;}}
+				else{
+					--d;
+					if(d != 0){
+						printf("         看来你并不爱我:(\n");
+						printf("         再给你%d次机会\n",d);}
+					fflush(stdin);
+					if(d == 0){
+						printf("\n\n给你机会不珍惜，不爱你了 ε=怒ε=怒ε=怒ε=怒ε=( o｀ω′)ノ \n");
+						Sleep(2000);
+						break;}
+					goto Ai3;}}
+			else{
+				--d;
+				if(d != 0){
+					printf("         看来你并不爱我:(\n");
+					printf("         再给你%d次机会\n",d);	}
+				fflush(stdin);
+				if(d == 0){
+					printf("\n\n给你机会不珍惜，不爱你了 ε=怒ε=怒ε=怒ε=怒ε=( o｀ω′)ノ \n");
+					Sleep(2000);
+					break;}
+				goto Ai2;}}
+		else{
+			--d;
+			if(d != 0)
+			{
+				printf("         看来你并不爱我:\n");
+				printf("         再给你%d次机会\n",d);
+			}
+			fflush(stdin);
+			if(d == 0)
+			{
+           printf("\n\n给你机会不珍惜，不爱你了 ε=怒ε=怒ε=怒ε=怒ε=( o｀ω′)ノ \n");
+				Sleep(2000);
+				break;}
+			
+			goto Ai1;}}
+	printf("w.   x.   h.   n.\n");
+	printf("I love you!\n");
+	printf("我喜欢你！\n");
+	printf("-----------------------------------------------------\n");
+	printf("我的年龄是:14岁\n");
+	printf("我的身高是%d厘米\n",171);
+	printf("我的体重是%f公斤\n",46.566809);
+	printf("圆周率约为:%f\n",3.141592);
+	printf("----------------------------------------------------\n");
+    int love;
+    love=520;
+	printf("love=%d\n",love);
+	love=521;
+	printf("love2=%d\n",love);
+	love=5211313+1;
+	printf("love3=%d\n",love);
+	printf("---------------------------------------------------\n");
+    a=3;
+    b=2;
+	int y;
+	c=a+b;
+	printf("c=%d\n",c);
+	y=a-1;
+	printf("y=%d\n",y);
+	c=a<b;
+	printf("c=%d\n",c);
+	c=a==b;
+	printf("c2=%d\n",c);
+	printf("------------------------------------------------------------\n");
+	int dogs;
+	printf("你有多少只小狗呢？\n");
+	scanf("%d",&dogs);
+	printf("哈哈哈，我现在已经知道你有%d 只狗!\n",dogs);
+	printf("-----------------------------------------------------------\n");
+	short akl=55;
+	char akk=22;
+	long aka=0;
+	printf("akl=%d\n",akl);
+	printf("akk=%d\n",akk);
+	printf("aka=%d\n",aka);
+	double k=5.211314;
+	printf("k=%f\n",k);
+	double j=5.2113145211314;
+	printf("j=%.13f\n",j);
+	unsigned int uil=520;
+	printf("uil=%u\n",uil);
+	char l='A';
+	printf("l=%c\n",l);
+	printf("--------------------------------------------------------\n");
+	double num;
+	printf("请输入该产品的英寸值:");
+	scanf("%lf",&num);
+	num=2.54*num;
+	printf("那么此产品厘米数为：%lf\n",num);
+	printf("----------------------------------------------------\n");
+	int bac=10;
+	bac+=510;
+	printf("bac=%d\n",bac);
+	bac=bac+1;
+	printf("bac=%d\n",bac);
+	bac=520;
+	++bac;
+	printf("bac=%d\n",bac);
+	printf("---------------------------------------\n");
+	a=52;
+    b=1;
+    c=1;
+    
+	printf("a=%d\n",a);
+    d=b&&c;
+	printf("d=%d\n",d);
+	b=0;
+	a=0;
+	c=a||b;
+	printf("c=%d\n",c);
+	a=0;
+	c=!a;
+	printf("c=%d\n",c);
+	printf("--------------------------------------------\n");
+    int sex;
+	printf("请输入你的性别（100以内为男（包括100）；否则为女）:\n");
+	scanf("%d",&sex);
+	if(sex<=100)
+	{printf("对不起，你不可以做我的女朋友、\n");}
+	if (sex>100)
+	{printf("你可能会做我的女朋友、\n");}
+	if (sex>10000)
+	{printf("但请你把你强迫症的习惯改掉~~~\n");}
+	int age;
+    printf("请输入你的年龄(周岁):\n");
+	scanf("%d",&age);
+	if (age<11)
+	{printf("对不起，你不可以做我的女朋友、\n");}
+	if(age>17)
+	{printf("对不起，你不可以做我的女朋友、\n");}
+	else
+	{printf("你可能会做我的女朋友、\n");}
+	int IQ;
+	printf("请输入你的IQ值\n");
+	scanf("%d",&IQ);
+	if(IQ<110)
+	{printf("对不起，你的智商太低，你不可以做我的女朋友、\n");}
+	if(IQ>110)
+	{printf("你可能会做我的女朋友、\n");}
+	if(IQ>200)
+	{printf("但是你应该知道你是非人类、、、\n");}
+	 love;
+	printf("你想知道我喜欢谁嘛？请输入密码\n");
+	scanf("%d",&love);
+	if (love==245074472)
+	{printf("我喜欢你、、、\n");}
+	else 
+	{printf("密码错误！\n");}
+	printf("---------------------------------------------\n");
+	int ttn=1;
+	printf("我最喜欢的数字是%d因为它是第一个\n",ttn);
+	int feet,fathoms;
+	fathoms=2;
+    feet=6*fathoms;
+	printf("There are %d feet in %d fathoms!\n",feet,fathoms);
+	printf("Yes,I said %d feet!\n",6*fathoms);
+	printf("------------------------------------------------\n");
+	double myolds;
+	printf("请输入你的年龄：（周岁）");
+	scanf("%lf",&myolds);
+	myolds=365*myolds;
+	printf("你在这个世界上已经活了大约%lf天\n",myolds);
+	if (myolds>47450)
+	{printf("但是我绝对绝对地肯定您输入的年龄有误！！！\n");
+	
+	}
+	printf("--------------------------------------------------------\n");
+    double pig;
+	printf("请想象一下你是一头可爱的小猪，想知道你值多少钱嘛？\n");
+	printf("请输入你的体重~~~（公斤）");
+	scanf("%lf",&pig);
+	pig =30*pig;
+	printf("现在你值%lf元、、、、、、\n",pig);
+	if(pig>4500)
+	{printf("你是超级大肥猪！你要减肥啦！\n");
+	
+	}
+	else{printf("你是标准猪！\n");}
+    int x=100;
+	printf("dec=%d;octal=%o;hex=%x\n",x,x,x);
+	printf("dec=%d;octal=%#o;hex=%#x\n",x,x,x);
+	printf("---------------------------------------------------------------------\n");
+
+
+
+
+
+
+
+
+
+
+
+
+	printf("=====================================程序结束==============================================\n");
+    getchar();
+	getchar();
+	getchar();
+	getchar();
+	getchar();
+	return 0;}
+
+
